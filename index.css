@@ -20,13 +20,13 @@
     align-items: center;
     background-color: var(--color-bg);
     min-height:100vh;
-    min-width:100%;
+    
     margin:0 auto;
 }
 .card{
     max-width: clamp(16rem, 60vw, 20rem);
     padding: clamp(1rem, 2vw, 1.5rem);
-    padding-bottom: 2rem;
+    padding-block-end: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -39,7 +39,7 @@
   height: auto;
   border-radius: var(--border-radius-medium);
   object-fit: cover;
-  padding-left: rem;;
+  
 }
 h1{
     font-size:1.2rem;
@@ -56,7 +56,7 @@ p{
     margin-inline-start: 0.55rem;
     margin-inline-end: 0.55rem;
 }
-@media (min-width:1440px) {
+@media (min-width:90rem) {
      
   .card {
     max-width: 18rem;
@@ -65,7 +65,7 @@ p{
     width:16rem;
     height:16rem;
   }
-  
+
 
   
 }
